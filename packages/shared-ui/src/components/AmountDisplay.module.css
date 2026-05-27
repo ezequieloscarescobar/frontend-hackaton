@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.label {
+  font-size: 12px;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.amount {
+  font-weight: 600;
+  color: #212529;
+}
+
+.sm {
+  font-size: 16px;
+}
+
+.md {
+  font-size: 24px;
+}
+
+.lg {
+  font-size: 36px;
+}

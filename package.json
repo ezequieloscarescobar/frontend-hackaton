@@ -1,0 +1,15 @@
+{
+  "name": "melipago-frontend-hackathon",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:wallet": "npm run dev --workspace=packages/wallet-app",
+    "dev:payment": "npm run dev --workspace=packages/payment-app",
+    "dev:ops": "npm run dev --workspace=packages/ops-dashboard",
+    "build:shared": "npm run build --workspace=packages/shared-ui",
+    "test": "npm run test --workspaces --if-present"
+  }
+}
