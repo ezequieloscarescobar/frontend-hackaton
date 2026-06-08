@@ -1,6 +1,18 @@
 # MeliPago Frontend — Hackathon IT Boarding
 
-Monorepo con npm workspaces que contiene la librería de componentes compartida y las tres apps del sistema de pagos MeliPago.
+> **Este repositorio es utilizado exclusivamente como material de práctica durante el proceso de onboarding de nuevos ingenieros.**
+
+## Contexto de negocio
+
+MeliPago es el sistema de pagos digitales de Mercado Libre. Permite a los usuarios gestionar su billetera virtual, realizar pagos y a los equipos internos monitorear el estado operativo de las transacciones en tiempo real.
+
+El sistema se compone de tres superficies:
+
+- **Wallet App** — interfaz del usuario final para consultar saldo, movimientos y configurar su cuenta de billetera.
+- **Payment App** — interfaz del usuario final para iniciar y confirmar pagos entre cuentas o hacia comercios.
+- **Ops Dashboard** — herramienta interna del equipo de operaciones para monitorear transacciones, detectar anomalías y gestionar el estado de las cuentas.
+
+En este repositorio se trabaja sobre las tres apps de forma simultánea a través de un monorepo, compartiendo componentes comunes mediante la librería `shared-ui`.
 
 ## Estructura
 
